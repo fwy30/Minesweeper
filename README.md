@@ -37,4 +37,4 @@ When the game starts, there will be a counter on the top indicates the number of
 
 ### mine: https://www.amymittelman.com/subscription-bomb/
 
-### number: https://commons.wikimedia.org/wiki/Main_Page
+### flag and number: https://commons.wikimedia.org/wiki/Main_Page
