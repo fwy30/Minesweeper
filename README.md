@@ -32,16 +32,27 @@ When the game starts, there will be a counter on the top indicates the number of
 There are four default grids (grid24, grid24-2, grid81, grid81-2), in the grid, each block is represented by a number which indicate the number of mines in its neighboors. Since a block will have at most 8 neighboors, the maximum number of the number will be 8, and number 9 is not used. Therefore, number 9 is used to represent the mines position. To customize your own grid, open a text file and start a line with "GRID START", then start new lines with the blocks. In each lines, number of each blocks is separated by space, and the length of the numbers in each line represents the length of the x axis of the grid. The number of the lines represents length of the y axis, and each row will start at a new line. After constructing your grid, start a new lines with "GRID STOP", and also start another new line with blank. 
 ### Grid example:
 GRID START
+
 1 9 1 1 9 2 9 1 0
+
 2 2 1 1 1 2 2 2 1
+
 9 1 1 1 2 1 2 9 1
+
 3 3 2 9 2 9 2 1 1
+
 9 9 3 2 3 2 2 1 0
+
 2 2 2 9 2 2 9 1 0
+
 0 0 1 2 9 2 1 1 0
+
 0 0 0 1 1 1 0 0 0
+
 0 0 0 0 0 0 0 0 0
+
 GRID STOP
+
 
 (notice to leave a blank line after GRID STOP)
 
