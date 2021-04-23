@@ -2,7 +2,7 @@
 
 
 ## Background and Introduction
-### Minesweeper was originated from a classic puzzle video game in 1960s, and it has been written for computer platforms in 1990s. In the game, player need to left click to explore each button in the grid and use right click to put flags to sweep the buttons with mines. The player wins if all the buttons without mines are left clicked, and the player loses if button with mine are left clicked.
+Minesweeper was originated from a classic puzzle video game in 1960s, and it has been written for computer platforms in 1990s. In the game, player need to left click to explore each button in the grid and use right click to put flags to sweep the buttons with mines. The player wins if all the buttons without mines are left clicked, and the player loses if button with mine are left clicked.
 
 
 ## Project scope
@@ -27,13 +27,10 @@ Download the Minesweeper.py file, or download the Minesweerpe.zip file and unzip
 ## Sample code
 
 ## 
-## citation:
+## Citation:
 
 ### grass: https://www.pexels.com/search/grass/
 
 ### mine: https://www.amymittelman.com/subscription-bomb/
 
 ### number: https://commons.wikimedia.org/wiki/Main_Page
-
-
-### Note: The number of flag can be negative value in windows minesweeper
