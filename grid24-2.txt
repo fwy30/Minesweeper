@@ -1,0 +1,12 @@
+# This is a 24 (6*4) minesweeper grid
+
+# 9 means mines position
+# other numbers mean the number of mines
+# in their neighbourhood
+
+GRID START
+1 9 1 0 0 0
+1 1 1 0 0 0
+0 1 2 2 1 0
+0 1 9 9 1 0
+GRID STOP
