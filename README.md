@@ -39,5 +39,6 @@ When the game starts, there will be a counter on the top indicates the number of
 
 ### flag and number: https://commons.wikimedia.org/wiki/Main_Page
 
-### some tkinter syntax is learnt from: https://docs.python.org/3/library/tkinter.html
-###                                   : https://www.geeksforgeeks.org/python-gui-tkinter/
+### some tkinter syntax is learnt from: 
+### https://docs.python.org/3/library/tkinter.html
+### https://www.geeksforgeeks.org/python-gui-tkinter/
