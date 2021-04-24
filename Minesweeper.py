@@ -92,8 +92,11 @@ class Minesweeper:
                 grid = self.randomgrid(9, 9, 0.10)
             elif v == 1:
                 grid = self.randomgrid(16, 16, 0.15)
-            else:
+            elif v == 2:
                 grid = self.randomgrid(30, 16, 0.20)
+            else:
+                messagebox.showinfo(
+                    "Minesweeper", "An error occurs, please restart the game.")
 
         self.grid = grid
         self.x_length = len(grid[0])
@@ -254,6 +257,7 @@ class Minesweeper:
         # x value here need to swap y and x in sequence
         y, x = info['posi']
         neighboor = []
+        fcounter = 0
         # if the number is not 0
         if info['number'] != 0:
             # if it is a mine
@@ -293,6 +297,9 @@ class Minesweeper:
             # left click the blocks in the full list
             for block in full_list:
                 a, b = block
+                # count if there is flagged block inside the full list
+                if self.info[b][a]['click'] == 2:
+                    fcounter = fcounter + 1
                 # print(a, b)
                 # if this block is 0, display plain picture
                 if self.info[b][a]['number'] == 0:
@@ -306,6 +313,11 @@ class Minesweeper:
                     self.info[b][a]["button"].config(image=self.number[number])
                     self.info[b][a]["button"].unbind('<Button-3>')
                     self.info[b][a]['click'] = 1
+
+        # after left clicked all the block in the full list,
+        # add the number of the flagged block to the flage number
+        self.num_flag = self.num_flag + fcounter
+        self.labels["flags"].config(text="Flags: " + str(self.num_flag))
 
         # check if the player left clicked all the non mine block,
         # if yes, the player win
@@ -408,6 +420,8 @@ class Minesweeper:
         if retry:
             # if retry restart the game
             self.create_grid()
+            self.num_flag = self.num_mine
+            self.labels["flags"].config(text="Flags: " + str(self.num_flag))
         else:
             # if cancel quit the window
             self.tk.quit()
@@ -432,9 +446,15 @@ class Minesweeper:
             if retry:
                 # if retry restart the game
                 self.create_grid()
+                self.num_flag = self.num_mine
+                self.labels["flags"].config(
+                    text="Flags: " + str(self.num_flag))
             else:
                 # if cancel quit the window
                 self.tk.quit()
+        else:
+            messagebox.showinfo(
+                "Minesweeper", "An error occurs, please restart the game.")
         return
 
     def check_step(self):
