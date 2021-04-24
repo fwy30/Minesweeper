@@ -17,7 +17,7 @@ Minesweeper was originated from a classic puzzle video game in 1960s, and it has
 9. Functions to generate random grid, calculate the number of each non mines blocks.
 10. Functions to generate a window and ask if player want to play default grid or random grid, and offer 3 different difficulty levels with different grid size and different mine percentages.
 11. Some default grids that user can play around (grid24, grid24-2, grid81, grid81-2).
-12. Some unit test files for function or functions (fixgrid is unit test for fix grid withour asking and generating random grid, RandomGrid is unit test for generate a list of list which represents the configuration of the grid of desired grid size and percent mine, CustomMessagebox is the unit test for displaying a windows asks for difficulty and give values to a global variable v).
+12. Some unit test files for function or functions (ReadIn is unit test for the read in function, fixgrid is unit test for fix grid withour asking and generating random grid, RandomGrid is unit test for generate a list of list which represents the configuration of the grid of desired grid size and percent mine, CustomMessagebox is the unit test for displaying a windows asks for difficulty and give values to a global variable v).
 13. A readme file explains the game (this file).
 14. Some snapshots of the game.
 
