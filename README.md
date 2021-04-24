@@ -1,6 +1,8 @@
 # Minesweeper
 # By Fan Wu
 # fwu30@jhu.edu
+Please email Fan Wu (fwu30@jhu.edu) if the file is not shown correctly on github; the file cannot be downloaded; or any problems occurs in running code and testing. Thank you!
+
 
 ## Background and Introduction
 Minesweeper was originated from a classic puzzle video game in 1960s, and it has been written for computer platforms in 1990s. In the game, player need to left click to explore each button in the grid and use right click to put flags to sweep the buttons with mines. The player wins if all the buttons without mines are left clicked, and the player loses if any button with mine are left clicked, and the goal is to left click all the non mine block (you do not have to right click all the mine block).
@@ -23,7 +25,7 @@ Minesweeper was originated from a classic puzzle video game in 1960s, and it has
 14. Some snapshots of the game.
 
 ## Instruction:
-Download the Minesweeper.py file, or download the Minesweeper.zip file and unzip the folder. Put all the picture files (.gif, .jpg, .jpeg file) and the default grid (ect. grid24.txt) together with Minesweeper.py file. Change the path inside the code if needed (change path of the default grid file in main block, and change the path of the picture in the initial function of the Minesweeper object). 
+Download the Minesweeper.py file, or download the Minesweeper.rar file and unzip the folder. Put all the picture files (.gif, .jpg, .jpeg file) and the default grid (ect. grid24.txt) together with Minesweeper.py file. Change the path inside the code if needed (change path of the default grid file in main block, and change the path of the picture in the initial function of the Minesweeper object). 
 
 You will need a default grid to start the game, however, there will be a window before game starts asking you if you want to play default grid, you can play random grid if you choose no, and you will then pick a difficulty level (easy: 9 * 9 grid with 10% of mines, middle: 16 * 16 grid with 15% of mines, hard: 30 * 16 with 20% of mines). 
 
