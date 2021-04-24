@@ -30,6 +30,10 @@ When the game starts, there will be a counter on the top indicates the number of
 
 ## Customize grid
 There are four default grids (grid24, grid24-2, grid81, grid81-2), in the grid, each block is represented by a number which indicate the number of mines in its neighboors. Since a block will have at most 8 neighboors, the maximum number of the number will be 8, and number 9 is not used. Therefore, number 9 is used to represent the mines position. To customize your own grid, open a text file and start a line with "GRID START", then start new lines with the blocks. In each lines, number of each blocks is separated by space, and the length of the numbers in each line represents the length of the x axis of the grid. The number of the lines represents length of the y axis, and each row will start at a new line. After constructing your grid, start a new lines with "GRID STOP", and also start another new line with blank. 
+
+Also notice there is unit test file named RandomGrid.py, you can also generate random grid with your favorite dimension and mines number in that file and copy and paste them into a text file and modified them into correct format.
+
+
 ### Grid example:
 GRID START
 
