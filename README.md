@@ -1,5 +1,6 @@
 # Minesweeper
 # By Fan Wu
+# fwu30@jhu.edu
 
 ## Background and Introduction
 Minesweeper was originated from a classic puzzle video game in 1960s, and it has been written for computer platforms in 1990s. In the game, player need to left click to explore each button in the grid and use right click to put flags to sweep the buttons with mines. The player wins if all the buttons without mines are left clicked, and the player loses if button with mine are left clicked.
