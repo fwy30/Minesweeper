@@ -12,7 +12,7 @@ Minesweeper was originated from a classic puzzle video game in 1960s, and it has
 1. A read in function to read in the customized minesweeper grid.
 2. A Minesweeper class with initial function.
 3. A create grid function to generate a platform to display the minesweeper grid and bind the left and right click events to each button.
-4. Functions and wrapper function for left and right click events.
+4. Functions and wrapper functions for left and right click events.
 5. Functions to show win and lose message boxes.
 6. Function to check if win criteria is met. 
 7. Function to calculate and combine neighbors and left click them when clicking on a button with number 0.
@@ -24,8 +24,13 @@ Minesweeper was originated from a classic puzzle video game in 1960s, and it has
 13. A readme file explains the game (this file).
 14. Some snapshots of the game.
 
+
+## Libraries used: 
+tkinter, PIL, Random, copy (no need to install new package)
+
+
 ## Instruction:
-Download the Minesweeper.py file, or download the Minesweeper.rar file and unzip the folder. Put all the picture files (.gif, .jpg, .jpeg file) and the default grid (ect. grid24.txt) together with Minesweeper.py file. Change the path inside the code if needed (change path of the default grid file in main block, and change the path of the picture in the initial function of the Minesweeper object). 
+Download the Minesweeper.py file, or download the Minesweeper.rar file and unzip the folder, or download the release. Put all the picture files (.gif, .jpg, .jpeg file) and the default grid (ect. grid24.txt) together with Minesweeper.py file. Change the path inside the code if needed (change path of the default grid file in main block, and change the path of the picture in the initial function of the Minesweeper object). 
 
 You will need a default grid to start the game, however, there will be a window before game starts asking you if you want to play default grid, you can play random grid if you choose no, and you will then pick a difficulty level (easy: 9 * 9 grid with 10% of mines, middle: 16 * 16 grid with 15% of mines, hard: 30 * 16 with 20% of mines). 
 
