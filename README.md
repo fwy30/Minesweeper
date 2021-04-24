@@ -63,6 +63,7 @@ GRID STOP
 
 
 ## Citation:
+### The picture is retrieved from:
 
 ### grass: https://www.pexels.com/search/grass/
 
@@ -70,6 +71,6 @@ GRID STOP
 
 ### flag and number: https://commons.wikimedia.org/wiki/Main_Page
 
-### some tkinter syntax is learnt from: 
+### Some tkinter syntax is learnt from: 
 ### https://docs.python.org/3/library/tkinter.html
 ### https://www.geeksforgeeks.org/python-gui-tkinter/
